@@ -5,4 +5,3 @@
 #TODO ALEXANDER
 #TODO ROMAN
 #TODO POLINA
-print('pzdc')

@@ -9,3 +9,4 @@ import turtle
 
 #TODO ROMAN
 #TODO POLINA
+print('VSEM hi')

@@ -278,8 +278,56 @@ turtle.forward(35)
 turtle.right(135)
 turtle.end_fill()
 turtle.up()
+#ruka1
+
 turtle.pendown
+turtle.right(240)
+turtle.forward(90)
+turtle.right(90)
+turtle.forward(23)
+turtle.pendown()
+turtle.fillcolor('purple')
+turtle.begin_fill()
+turtle.circle(25)
+turtle.end_fill()
+turtle.up()
+ #ruka 2
+turtle.right(40)
+turtle.forward(100)
+turtle.pendown
+turtle.fillcolor('purple')
+turtle.begin_fill()
+turtle.circle(25)
+turtle.end_fill()
+turtle.up()
+#metla
+turtle.right(270)
+turtle.forward(270)
+turtle.pendown()
+turtle.right(180)
+turtle.pensize(5)
+turtle.forward(350)
+turtle.right(45)
+turtle.forward(50)
+turtle.up()
+turtle.right(180)
+turtle.forward(50)
+turtle.pendown()
+turtle.right(90)
+turtle.forward(50)
+turtle.up()
+turtle.right(180)
+turtle.forward(50)
+turtle.right(220)
+turtle.pendown()
+turtle.forward(50)
 turtle.mainloop()
+
+
+
+
+
+
 
 
 

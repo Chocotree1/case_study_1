@@ -163,7 +163,9 @@ turtle.forward(35)
 turtle.right(135)
 turtle.end_fill()
 turtle.up()
+turtle.pendown
 turtle.mainloop()
+
 
 
 

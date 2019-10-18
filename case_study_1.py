@@ -1,4 +1,4 @@
-# Case Study #1
+#Developers: Zaytsev A.
 #Developers: Zaytsev A.
 #            Sharypov R.
 #            Kurasova P.
@@ -18,6 +18,7 @@ import turtle
 #turtle.up()
 #turtle.mainloop()
 # trapetsiya
+turtle.speed(0)
 turtle.goto(0,0)
 turtle.pendown()
 turtle.forward(300)
@@ -91,8 +92,11 @@ turtle.left(90)
 turtle.forward(10)
 turtle.pendown()
 turtle.circle(10)
+turtle.up()
 
-turtle.mainloop()
+
+
+
 
 
 
@@ -103,4 +107,89 @@ turtle.mainloop()
 
 #TODO ROMAN
 #TODO POLINA
-print('VSEM hi')
+#Snegovik :)
+#circle
+turtle.setheading (270)
+turtle.forward(200)
+turtle.setheading(180)
+turtle.forward(350)
+turtle.pendown()
+turtle.fillcolor('blue')
+turtle.begin_fill()
+turtle.circle(100)
+turtle.end_fill()
+turtle.up()
+#kvadrat
+turtle.right(180)
+turtle.forward(45)
+turtle.right(180)
+turtle.pendown()
+turtle.fillcolor('yellow')
+turtle.begin_fill()
+turtle.forward(90)
+turtle.right(90)
+turtle.forward(90)
+turtle.right(90)
+turtle.forward(90)
+turtle.right(90)
+turtle.forward(90)
+turtle.right(90)
+turtle.forward(25)
+turtle.end_fill()
+turtle.up()
+#circlesmall
+turtle.right(90)
+turtle.forward(155)
+turtle.left(100)
+turtle.forward(25)
+turtle.pendown()
+turtle.fillcolor('pink')
+turtle.begin_fill()
+turtle.circle(30)
+turtle.end_fill()
+turtle.up()
+#treygolniksmall
+turtle.right(180)
+turtle.forward(20)
+turtle.right(180)
+turtle.pendown()
+turtle.fillcolor('red')
+turtle.begin_fill()
+turtle.forward(50)
+turtle.right(135)
+turtle.forward(35)
+turtle.right(90)
+turtle.forward(35)
+turtle.right(135)
+turtle.end_fill()
+turtle.up()
+turtle.mainloop()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

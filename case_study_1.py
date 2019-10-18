@@ -185,6 +185,7 @@ turtle.begin_fill()
 turtle.circle(25)
 turtle.end_fill()
 turtle.up()
+#metla
 turtle.right(270)
 turtle.forward(270)
 turtle.pendown()

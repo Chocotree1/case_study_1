@@ -321,11 +321,110 @@ turtle.forward(50)
 turtle.right(220)
 turtle.pendown()
 turtle.forward(50)
+
+
+#TODO Roman
+#simple flower
+def flower (x,y,color):
+    turtle.up()
+    turtle.goto(x,y)
+    turtle.setheading(90)
+    turtle.color('green')
+    turtle.pendown()
+    turtle.fd(200)
+    turtle.setheading(0)
+    turtle.color('yellow')
+    turtle.begin_fill()
+    turtle.circle(20,360)
+    turtle.end_fill()
+    for i in range(4):
+        turtle.color(color)
+        turtle.begin_fill()
+        turtle.circle(-35,360)
+        turtle.end_fill()
+        turtle.color('yellow')
+        turtle.circle(20,90)
+flower(-100,0,'red')
+
+
+#difficult flower
+#polygon
+turtle.up()
+turtle.goto(-200,-150)
+turtle.pendown()
+turtle.fillcolor('yellow')
+turtle.begin_fill()
+turtle.forward(50)
+turtle.right(60)
+turtle.forward(50)
+turtle.right(60)
+turtle.forward(50)
+turtle.right(60)
+turtle.forward(50)
+turtle.right(60)
+turtle.forward(50)
+turtle.right(60)
+turtle.forward(50)
+turtle.right(60)
+turtle.end_fill()
+
+#triangles for petals
+turtle.up()
+turtle.goto(-200,-150)
+turtle.pendown()
+turtle.pencolor('green')
+turtle.fillcolor('green')
+turtle.begin_fill()
+turtle.left(60)
+turtle.forward(50)
+turtle.right(120)
+turtle.forward(50)
+turtle.end_fill()
+turtle.begin_fill()
+turtle.left(60)
+turtle.forward(50)
+turtle.right(120)
+turtle.forward(50)
+turtle.end_fill()
+turtle.begin_fill()
+turtle.left(60)
+turtle.forward(50)
+turtle.right(120)
+turtle.forward(50)
+turtle.end_fill()
+turtle.begin_fill()
+turtle.left(60)
+turtle.forward(50)
+turtle.right(120)
+turtle.forward(50)
+turtle.end_fill()
+turtle.begin_fill()
+turtle.left(60)
+turtle.forward(50)
+turtle.right(120)
+turtle.forward(50)
+turtle.end_fill()
+turtle.begin_fill()
+turtle.left(60)
+turtle.forward(50)
+turtle.right(120)
+turtle.forward(50)
+turtle.end_fill()
+
+#center of the flower
+turtle.up()
+turtle.goto(-175,-212)
+turtle.pendown()
+turtle.pencolor('red')
+turtle.fillcolor('red')
+turtle.begin_fill()
+turtle.circle(20,360)
+turtle.end_fill()
+
+
+
+
 turtle.mainloop()
-
-
-
-
 
 
 

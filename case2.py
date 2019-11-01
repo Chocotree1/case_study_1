@@ -23,21 +23,28 @@ for i in range(12):
     annual_income = annual_income + income
 print(annual_income)
 
-if citizen == 2:
+if citizen == '2':
     if annual_income > 0 and annual_income <= 18150:
         tax = tax10*(annual_income - 0)
+        print(tax)
     elif annual_income > 18150 and annual_income <= 73800:
         tax = tax10*(18150-0)+tax15*(annual_income - 18150)
+        print(tax)
     elif annual_income > 73800 and annual_income <= 148850:
         tax = tax10*(18150-0)+tax15*(73800 - 18150)+tax25*(annual_income - 73800)
+        print(tax)
     elif annual_income > 148850 and annual_income <= 226850:
         tax = tax10 * (18150 - 0) + tax15 * (73800 - 18150) + tax25 * (148850 - 73800) + tax28*(annual_income - 148850)
+        print(tax)
     elif annual_income > 226850 and annual_income <= 405100:
         tax = tax10 * (18150 - 0) + tax15 * (73800 - 18150) + tax25 * (148850 - 73800) + tax28*(226850-148850)+tax33*(annual_income-226850)
+        print(tax)
     elif annual_income > 405100 and annual_income <= 457600:
         tax = tax10 * (18150 - 0) + tax15 * (73800 - 18150) + tax25 * (148850 - 73800) + tax28 * (226850 - 148850) + tax33 * (405100 - 226850)+tax35*(annual_income-405100)
+        print(tax)
     elif annual_income > 457600:
         tax = tax10 * (18150 - 0) + tax15 * (73800 - 18150) + tax25 * (148850 - 73800) + tax28 * (226850 - 148850) + tax33 * (405100 - 226850) + tax35 * (457600-405100)+tax396*(annual_income-457600)
+        print(tax)
 
 #TODO ROMAN
 #TODO POLINA

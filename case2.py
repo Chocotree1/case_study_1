@@ -18,6 +18,14 @@ for i in range(12):
     annual_income = annual_income + income
 print(annual_income)
 
+tax10 = 0.1
+tax15 = 0.15
+tax25 = 0.25
+tax28 = 0.28
+tax33 = 0.33
+tax35 = 0.35
+tax396 = 0.396
+
 #TODO ROMAN
 #TODO POLINA
 
